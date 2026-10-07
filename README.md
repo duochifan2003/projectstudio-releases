@@ -1,2 +1,13 @@
-# projectstudio-releases
-ProjectStudio Windows releases and signed update manifests. Source code is maintained privately.
+# 样片日记文件夹 · ProjectStudio
+
+这里仅提供 Windows 程序、更新说明和签名更新信息，源码不在本仓库公开。
+
+[下载最新正式版本](https://github.com/duochifan2003/projectstudio-releases/releases/latest)
+
+下载 EXE 后直接运行，点击右上方版本号，选择「安装到此电脑」。程序安装到当前用户的应用目录，创建桌面和开始菜单快捷方式，无需管理员权限或额外安装 .NET。
+
+软件每天后台检查一次更新并下载新版，确认「重启更新」后才替换程序。更新包通过签名、SHA-256、文件大小和程序版本验证；下载失败继续使用当前版本，启动失败可恢复旧版。素材任务不会因后台下载而中断。
+
+支持 Windows 10/11 x64。程序保留原生 WPF、炭黑与象牙白界面、项目目录创建、素材预导入和已有项目导入。更新与卸载保留用户偏好、项目和素材。
+
+更新包签名用于程序内部验证，不等同于 Windows Authenticode 签名；Windows 可能显示未签名程序提示。请从本仓库正式 Release 下载。
